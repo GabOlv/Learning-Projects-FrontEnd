@@ -1,0 +1,258 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #111111;
+}
+
+.container{
+    display: flex;
+    background-color: #111111;
+    overflow: hidden;
+    position: relative;
+    justify-content: center; 
+    overflow-x: auto;
+}
+
+.sidebar {
+    display: flex;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #1D1D1D;
+    flex-direction: column;  
+    border: 2px solid #363535;
+    border-radius: 20px;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h2{
+    margin: 0;
+    font-size: 22px;
+    align-items: center;
+}
+
+.profile p {
+    display: flex;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #2D2D2D;
+    color: #fff;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.sidebar-underline {
+    width: 100%;
+    height: 3px;
+    background-color: #2D2D2D;
+    margin-bottom: 25px;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.info-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #2D2D2D;
+    border: 2px solid #363535;
+    border-radius: 10px;
+}
+
+.info-item-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.info-item-name{
+    color: gray;
+}
+
+.info-item-value{
+    color: aliceblue;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.icon-button img {
+    display: block;
+}
+
+.social-icons img {
+    width: 24px; 
+    height: 24px;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 10px;
+    width: 50vw;
+    background-color: #1D1D1D;
+    border: 2px solid #363535;
+    border-radius: 20px;
+    min-width: 910px;
+    overflow-y: auto;
+}
+
+.content::-webkit-scrollbar {
+    width: 0; /* Hide scrollbar */
+    background: transparent; /* Optional: ensure scrollbar track is invisible */
+}
+
+/* Hide scrollbar in Firefox */
+.content {
+    scrollbar-width: none; /* Hide scrollbar */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-name {
+    display: flex;
+}
+
+.navbar-name p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    color:aliceblue;
+}
+
+.nav-underline {
+    display: flex;
+    background-color: #d4c23b;
+    margin-left: 20px;
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.navbar nav ul {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    background-color: #2D2D2D;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    background-color: #2D2D2D;
+    margin: 10px;
+}
+
+.navbar nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #2D2D2D;
+}
+
+.about{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.about h1 {
+    font-size: 24px;
+    margin: 0;
+    color: aliceblue;
+}
+
+.about p {
+    font-size: 16px;
+    color: aliceblue;
+
+}
+
+.projects {
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    display: flex;
+    background-color: #2D2D2D;
+    border-radius: 20px;
+    width: 380px;
+    margin: 20px;
+    border: 2px solid #363535;
+}
+
+.project-item img{
+    margin: 12px;
+    height: 60px;
+    width: 60px;
+}
+
+.project-item-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item-content-title h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.project-item-content-text p{
+    margin-right: 5px;
+    margin-top: 0px;
+    padding: 5px;
+    color:#a7a4a4;
+    text-align: align;
+}
